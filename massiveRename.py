@@ -21,13 +21,13 @@ def rename(directorio, parte_antigua, parte_nueva):
 
 if __name__ == "__main__":
     # ruta
-    directorio_a_renombrar = "D:/ejemplo/directory"
+    directorio_a_renombrar = "D:/Usuario/Documents/prueba"
 
     # parte antigua
-    parte_antigua = "old"
+    parte_antigua = "camera11"
 
     # parte nueva
-    parte_nueva = "new"
+    parte_nueva = "PatioTrasero"
 
     # Llamado de la función
     rename(directorio_a_renombrar, parte_antigua, parte_nueva)
